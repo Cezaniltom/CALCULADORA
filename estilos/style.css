@@ -2,8 +2,16 @@ body {
     background: #677987;
 }
 
+.container {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
 .calculadora {
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
   border: solid 1px #2A8091;
   padding: 20px;
   background-color: #2E2E2E;
